@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#page1-in{
+  position: relative;
+  perspective: 1000px;
+ 
+}
+#tilt-div{
+  /* background-color: red; */
+  width: fit-content;
+  transform: rotateX(0deg);
+}
